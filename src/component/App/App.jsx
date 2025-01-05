@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <counterContext.Provider value={{count, setCount}}>
-        <UseCallBack />
+      {/*<UseCallBack />*/} 
         <UseMemo />
-        <UseContext />
+        {/* <UseContext /> */}
       </counterContext.Provider>
     </div>
   );
